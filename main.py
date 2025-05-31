@@ -6,7 +6,7 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
-from system import Satellite
+from satellite import Satellite
 from controllers import PidController
 
 def execute(duration = 3600, dt = 1.0):
